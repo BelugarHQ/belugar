@@ -1,5 +1,6 @@
 <template>
-    <!-- <HomeLoader v-i="home"/> -->
+
+  <!-- <HomeLoader v-i="home"/> -->
 
     <div class="bg-cover w-full" >
 
@@ -253,11 +254,13 @@
 
             </div>
         </div>
-
          
+
         <LazyBlog/>
 
         <LazyContact/>
+
+
 
         <div class="">
             <div class="flex overflow-x-scroll gap-20 opacity-20 animate-slide">
@@ -271,7 +274,7 @@
             </div>
         </div>
         
-     </div>
+    </div>
   
 </template>
 
@@ -345,8 +348,6 @@ const pricing_plans_anually  = ref([])
 //     },
 // ]
 
-
-
 const questions= [
   "/tools/11.png",
   "/tools/22.png",
@@ -410,23 +411,25 @@ const setActiveTab = (tab) => {
 
  const currentIndex = ref(0)
   
-  const prevSlide = () => {
-    if (currentIndex.value > 0) {
-      currentIndex.value -= 1
-    }
+const prevSlide = () => {
+  if (currentIndex.value > 0) {
+    currentIndex.value -= 1
   }
-  
-  const nextSlide = () => {
-    if (currentIndex.value < slides.value.length - 1) {
-      currentIndex.value += 1
-    }
+}
+
+
+const nextSlide = () => {
+  if (currentIndex.value < slides.value.length - 1) {
+    currentIndex.value += 1
   }
+}
 
 // Pause marquee when hovered
 const pauseMarquee = () => {
   const marquee = document.querySelector('.animate-marquee')
   marquee.style.animationPlayState = 'paused'
 }
+
 
 // Resume marquee after hover
 const resumeMarquee = () => {
