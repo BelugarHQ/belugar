@@ -4,13 +4,15 @@
     <div class="bg-cover w-full" >
 
         <div class="relative ">
-
+        
           <div class="h-[978px] w-full overflow-hidden absolute top-0 opacity-70  left-0">
-              <img class=" z-30 absolute top-40  left-40" src="/gridblocks.png" alt="Image"/>
-              <img class=" z-10 absolute -top-10  left-0  opacity-[0.050] w-full" src="/hori-lines1.png" alt="Imag2"/>
-              <img class=" z-20 absolute top-0  left-0 opacity-[0.15]" src="/verti-lines.png" alt="Image3"/>
-          </div>
 
+            <img class=" z-30 absolute top-40  left-40" src="/gridblocks.png" alt="Image"/>
+            <img class=" z-10 absolute -top-10  left-0  opacity-[0.050] w-full" src="/hori-lines1.png" alt="Imag2"/>
+            <img class=" z-20 absolute top-0  left-0 opacity-[0.15]" src="/verti-lines.png" alt="Image3"/>
+
+          </div>
+        
           <div class="max-w-[1200px] z-10  mx-auto w-full grid grid-cols-1 md:grid-cols-3 pt-[80px] md:pt-[10%] gap-20 min-h-[1000px] md:min-h-[550px] px-4 md:px-0">
   
               <div class="col-span-2 pt-[50px] md:pt-[50px] md:pb-[50px]">
@@ -44,7 +46,6 @@
                       </div>
                   </div>
               </div>
-  
 
               <div class=" relative md:py-[80px] -top-40 md:top-0">
                   <div class="flex justify-center">
@@ -61,8 +62,6 @@
                       </div>
                   </div>
               </div>
-              
-
   
           </div>
 
@@ -212,13 +211,12 @@
 
         <div class="min-h-[600px] md:mt-[80px] mb-4">
 
-            
+          <LazyCardsQuestions/>
 
-            <LazyCardsQuestions/>
         </div>
 
 
-         <div class="mt-[80px] min-h-[600px] px-4 md:px-0">
+        <div class="mt-[80px] min-h-[600px] px-4 md:px-0">
             <div class="max-w-[1200px] mx-auto">
                 <div  class="flex flex-col justify-center items-center w-full">
                     <h1 class="text-[#0D0D0D] text-[24px] md:text-[32px] font-[700]">Take the best path forward</h1>
@@ -260,10 +258,6 @@
         <LazyBlog/>
 
         <LazyContact/>
-       
-        
-       
-
 
         <div class="">
             <div class="flex overflow-x-scroll gap-20 opacity-20 animate-slide">
@@ -277,7 +271,7 @@
             </div>
         </div>
         
-    </div>
+     </div>
   
 </template>
 
