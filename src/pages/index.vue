@@ -21,7 +21,7 @@
   
                       <div class="flex items-center border-b pb-3">
                           <IconsDollar/>
-                          <span class="text-[12px] md:text-[14px]  text-[#1D1D1D] ml-1 font-[400] uppercase md:tracking-wide">One dollar software for Start-ups and SME’s</span>
+                          <span class="text-[12px] md:text-[14px]  text-[#1D1D1D] ml-1 font-[400] uppercase md:tracking-wide">One dollar software for Start-ups and SMEs</span>
                       </div>
   
                       <span class="text-[30px] md:text-[54px] font-[700] text-[#1D1D1D] leading-tight mt-[16px]">

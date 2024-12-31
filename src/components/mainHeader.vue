@@ -70,11 +70,11 @@
 
                 <div class="border-b "></div>
                     <div class="px-6">
-                      <Button name="Sign in " textColor="#1D1D1D" color="#2e33380d" height="50px" />
+                      <Button name="Sign in " textColor="#1D1D1D" color="#2e33380d" height="50px" width="100%"  />
                     </div>
                     
-                    <div class="px-6">
-                      <Button name="Get started" height="50px" />
+                    <div class="px-6 w-full">
+                      <Button name="Get started" height="50px" width="100%" />
                     </div>
                 <!-- <div class="border-b"></div>
 

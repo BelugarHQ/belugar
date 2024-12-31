@@ -9,7 +9,7 @@
             </div>
         </div>
 
-        <div class="relative min-h-[678px] text-[#333;]">
+        <div class="relative min-h-[678px] text-[#333;] ">
 
             <div class="h-[678px] w-full overflow-hidden absolute top-0 opacity-70  left-0">
                     <img class=" z-30 absolute top-40  left-40" v-lazy="'/gridblocks.png'"/>
@@ -21,7 +21,7 @@
 
                 <h2 class="text-center font-[700] text-6 md:text-[32px] md:leading-[38.4px]">Legal</h2>
 
-                <div class="tabs mt-6 ">
+                <div class="tabs mt-6 px-4 md:px-0">
                     <n-tabs type="segment" animated color="info"  tab-style="max-width: 450px;">
                         <n-tab-pane name="privacy policy" tab="Privacy policy">
                             <TabsPrivacy />
